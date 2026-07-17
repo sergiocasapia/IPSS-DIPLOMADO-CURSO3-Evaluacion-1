@@ -43,9 +43,19 @@ const PORT = 3000
 //
 //   ── Base ──────────────────────────────────────────────────────────────────
 //   GET  /api/selecciones                     todas
-
+     app.get('/api/selecciones', (req, res) => {
+        res.json(selecciones)
+     })
 //   GET  /api/selecciones/:id                 una, o 404
-//
+     app.get('/api/selecciones/:id', (req, res) => {
+         const id = Number(req.params.id)
+         const seleccion = selecciones.find(s => s.id == id)
+         if (!seleccion) {
+            return res.status(404).json({error : 'Seleccion no encontrada'})
+         }
+        res.json(seleccion)
+    })
+
 //   ── Con lógica ⭐ ──────────────────────────────────────────────────────────
 //   GET  /api/selecciones?continente=Europa   filtra por continente  (anidada)
 //   GET  /api/selecciones?campeon=true        solo las que ganaron alguna copa
