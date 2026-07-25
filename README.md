@@ -28,25 +28,28 @@ Pruebas : Ejecutar en secuencia coleccion de carpeta Book_Api_Mundial
 Metodo HTTP (GET , POST)
 
 ### Detalle Metodos
-Get Selecciones
-Get Seleccion
-Get Continente
-Get Campeones
-Get Copas
-Get Copas Seleccion
-Get Estadisticas
-Post Semifinales
-Get Semifinal
-Get Semifinales
-Post Final
-Get Final
-Get Tabla
-Get Camino Titulo
+GET Selecciones
+GET Seleccion
+GET Continente
+GET Campeones
+GET Copas
+GET Copas Seleccion
+GET Estadisticas
+POST Semifinales_Partido_1
+POST Semifinales_Partido_2
+POST Semifinales_Partido_3
+POST Semifinales_Partido_4
+GET Semifinal
+GET Semifinales
+POST Final
+GET Final
+GET Tabla
+GET Camino Titulo
 
 ### Estado API REST
 Retorno : 200 al leer bien, 201 al crear, 400 si los datos que llegan están mal o faltan, 404 si el recurso no existe.
 
 ### Tecnologia y Conceptos JS utilizados
-Metodos Array : find,filter, flatMap,reduce,
+Metodos Array : find,filter, flatMap, reduce,
 Funcion  : Flecha
 Operador  : Ternario y fusion de Nulos
