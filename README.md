@@ -18,7 +18,7 @@ Sitio desplegado:
 N/A
 
 ### Cómo correr localmente
-git clone : https://github.com/Gakertz/IPSS-evaluacion-clases-1-y-2.git
+git clone : https://github.com/sergiocasapia/IPSS-DIPLOMADO-CURSO3-Evaluacion-1.git
 VSC ir a terminal de ruta de proyecto clonado y ejecutar : npm install
 Levanta API REST : npm run dev (deja corriendo : http://localhost:3000)
 Levantar PostMan y importar archivo : Book_Api_Mundial.postman_collection.json
