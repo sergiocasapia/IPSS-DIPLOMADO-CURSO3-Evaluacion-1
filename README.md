@@ -11,15 +11,12 @@ Sergio Casapia Churata
 Construir API REST para realizar consultas sobre el Campeonato Mundial, ademas de permitir el ingreso de resultados de semifinales y final.
 API desarrolladas en Node.js y Express.
 
-### Deploy
-Sitio desplegado: 
-
 ### Capturas del sitio
 N/A
 
 ### Cómo correr localmente
 git clone : https://github.com/sergiocasapia/IPSS-DIPLOMADO-CURSO3-Evaluacion-1.git
-VSC ir a terminal de ruta de proyecto clonado y ejecutar : npm install
+VSC ir a terminal de ruta de proyecto clonado y ejecutar : npm install express
 Levanta API REST : npm run dev (deja corriendo : http://localhost:3000)
 Levantar PostMan y importar archivo : Book_Api_Mundial.postman_collection.json
 Pruebas : Ejecutar en secuencia coleccion de carpeta Book_Api_Mundial
