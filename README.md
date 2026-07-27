@@ -12,7 +12,7 @@ Construir API REST para realizar consultas sobre el Campeonato Mundial, ademas d
 API desarrolladas en Node.js y Express.
 
 
-### URL Youtube (version 10 minutos) :   
+### URL Youtube (version 10 minutos) :   https://youtu.be/cJG7ZFk06IM  
     
 ### Capturas del sitio
 N/A
