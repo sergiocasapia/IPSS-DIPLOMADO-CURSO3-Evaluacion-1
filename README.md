@@ -15,38 +15,38 @@ API desarrolladas en Node.js y Express.
 N/A
 
 ### Cómo correr localmente
-git clone : https://github.com/sergiocasapia/IPSS-DIPLOMADO-CURSO3-Evaluacion-1.git
-VSC ir a terminal de ruta de proyecto clonado y ejecutar : npm install express
-Levanta API REST : npm run dev (deja corriendo : http://localhost:3000)
-Levantar PostMan y importar archivo : Book_Api_Mundial.postman_collection.json
-Pruebas : Ejecutar en secuencia coleccion de carpeta Book_Api_Mundial
+git clone : https://github.com/sergiocasapia/IPSS-DIPLOMADO-CURSO3-Evaluacion-1.git  
+VSC ir a terminal de ruta de proyecto clonado y ejecutar : npm install express  
+Levanta API REST : npm run dev (deja corriendo : http://localhost:3000)  
+Levantar PostMan y importar archivo : Book_Api_Mundial.postman_collection.json  
+Pruebas : Ejecutar en secuencia coleccion de carpeta Book_Api_Mundial  
 
 ### Endpoinst (Rutas API)
 Metodo HTTP (GET , POST)
 
 ### Detalle Metodos
-GET Selecciones
-GET Seleccion
-GET Continente
-GET Campeones
-GET Copas
-GET Copas Seleccion
-GET Estadisticas
-POST Semifinales_Partido_1
-POST Semifinales_Partido_2
-POST Semifinales_Partido_3
-POST Semifinales_Partido_4
-GET Semifinal
-GET Semifinales
-POST Final
-GET Final
-GET Tabla
-GET Camino Titulo
+GET Selecciones  
+GET Seleccion  
+GET Continente  
+GET Campeones  
+GET Copas  
+GET Copas Seleccion  
+GET Estadisticas  
+POST Semifinales_Partido_1  
+POST Semifinales_Partido_2  
+POST Semifinales_Partido_3  
+POST Semifinales_Partido_4  
+GET Semifinal  
+GET Semifinales  
+POST Final  
+GET Final  
+GET Tabla 
+GET Camino Titulo  
 
 ### Estado API REST
 Retorno : 200 al leer bien, 201 al crear, 400 si los datos que llegan están mal o faltan, 404 si el recurso no existe.
 
 ### Tecnologia y Conceptos JS utilizados
-Metodos Array : find,filter, flatMap, reduce,
-Funcion  : Flecha
-Operador  : Ternario y fusion de Nulos
+Metodos Array : find,filter, flatMap, reduce,  
+Funcion  : Flecha  
+Operador  : Ternario y fusion de Nulos  
