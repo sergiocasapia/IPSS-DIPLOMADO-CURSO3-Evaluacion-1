@@ -11,6 +11,9 @@ Sergio Casapia Churata
 Construir API REST para realizar consultas sobre el Campeonato Mundial, ademas de permitir el ingreso de resultados de semifinales y final.
 API desarrolladas en Node.js y Express.
 
+
+### URL Youtube (version 10 minutos) :   
+    
 ### Capturas del sitio
 N/A
 
